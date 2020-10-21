@@ -47,7 +47,7 @@ Entrando via SSH nos servers:
 
 Verificando o status:
 
-    $ vagrante status
+    $ vagrant status
 
     $ vagrant global-status
 
