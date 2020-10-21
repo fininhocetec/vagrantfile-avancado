@@ -7,7 +7,7 @@ Vagrantfile - Avançado
 
 ## Labóratorio de Vagrant Avançado
 
-Um Vagrantfile um pouco mais eleaborado com várias máquinas, interligados em uma rede interna, com reserva de recuros, como CPU, memória entre outros.
+Um Vagrantfile um pouco mais eleaborado com várias máquinas, interligados em uma rede interna, com reserva de recuros, como CPU, memória, implementação de script em bash shell para configuração das máquinas em tempo de deployment entre outros.
 
 
 Requisitos
@@ -30,10 +30,19 @@ Tenha certeza de star na pasta onde encontra o Vagrantfile
 
 Entrando via SSH nos servers:
 
-    $ vagrant ssh server1
+    $ vagrant ssh devops
       exit
 
-    $ vagrant ssh server2
+    $ vagrant ssh compliance
+      exit 
+
+    $ vagrant ssh docker
+      exit 
+
+    $ vagrant ssh git
+      exit 
+
+    $ vagrant ssh log
       exit 
 
 Verificando o status:
